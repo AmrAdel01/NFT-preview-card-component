@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <a href="images/image-equilibrium.jpg" class="card-preview"></a>
+      <picture>
+        <img
+          src="images/image-equilibrium.jpg"
+          class="card-banner"
+          alt="preview Equilibrium"
+          width="604"
+          height="604"
+        />
+      </picture>
+
+      <div class="card-content">
+        <h2 class="card-heading">
+          <a href="#" class="card-title">Equilibrium #3429</a>
+        </h2>
+        <p class="card-description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+      </div>
+
+      <div class="card-value">
+        <img
+          src="images/icon-ethereum.svg"
+          alt="icon-ethereum"
+          width="11"
+          height="18"
+        />
+        <span>0.041 <abbr>ETH</abbr></span>
+
+        <p class="estimated-time">
+          <img src="images/icon-clock.svg" alt="clock Icon" />
+          <span> 3 days left</span>
+        </p>
+      </div>
+
+      <hr />
+
+      <div class="card-creator">
+        <picture>
+          <img
+            src="images/image-avatar.png"
+            alt="Jules Wyvern"
+            class="card-avater"
+            width="32"
+            height="32"
+          />
+        </picture>
+        <p class="card-caption">
+          Creation of
+          <a href="#">Jules Wyvern</a>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
